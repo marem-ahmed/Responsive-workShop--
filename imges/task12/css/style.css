@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font--family-header: "Libre Baskerville", serif;
+    --font-size-header: 2.4rem;
+    --color-header: black;
+    --font-body-p: "metropolis-regular", sans-serif;
+    --font-size-pragraph: 1.5rem;
+    --color-font-pragraph: #656565;
+    --color-link-a: #0054a5;
+    --font-size-link-a: 1.5rem;
+}
+
+
+
+body {
+    font-family: var(--font-body-p)
+}
+
+.navbar-nav {
+    background-color: #151515;
+    
+
+    .philosophy {
+        cursor: pointer;
+        .search {
+            span {
+                letter-spacing: 2px;
+                font-size: 12px;
+                cursor: pointer;
+
+            }
+        }
+        .icon{
+            cursor: pointer;
+        }
+    }
+
+    .links {
+        ul {
+            li {
+                a {
+                    color: var(--color-font-pragraph);
+                    transition: .5s;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Music-Preference {
+    background-color: #151515;
+
+    .row {
+        padding: 0 4rem;
+
+
+        .img-1 {
+            position: relative;
+            width: 65%;
+            height: 90vh;
+             
+           
+
+
+
+            img {
+                width: 100%;
+                height: 100%;
+                transition: .3s;
+                transition: .3s;
+                &:hover{
+                    opacity: 0.5;
+                }
+
+            }
+
+
+
+
+
+
+            .text {
+                position: absolute;
+                top: 19rem;
+                left: 4rem;
+                
+                
+
+                p {
+                    a {
+                        background-color: #01aef0;
+                        padding: 3px 12px;
+                        letter-spacing: 2px;
+                    }
+                   
+                }
+
+                h1 {
+                    width: 85%;
+                    font-family: var(--font--family-header);
+
+                }
+
+
+
+
+                .john {
+
+                    img {
+                        width: 6%;
+
+                    }
+
+                    ul {
+                        li {
+                            a {
+                                color: rgba(255, 255, 255, 0.5);
+
+                                &:hover {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .images {
+            width: 35%;
+            height: 45vh;
+            position: relative;
+
+            img {
+                width: 100%;
+                height: 100%;
+                transition: .5s;
+            &:hover{
+                opacity: 0.5;
+            }
+
+
+            }
+
+            .text {
+                position: absolute;
+                top: 9rem;
+                padding: 0 1.5rem;
+
+
+                p {
+                    a {
+                        background-color: #679a23;
+                        padding: 4px 20px;
+                        font-size: 10PX;
+                        letter-spacing: 2px;
+
+                    }
+                }
+
+                h1 {
+
+                    font-family: var(--font--family-header);
+
+                }
+
+                .john-doe {
+
+
+
+                    ul {
+                        li {
+                            a {
+                                color: rgba(255, 255, 255, 0.5);
+                            }
+                        }
+                    }
+
+
+                }
+            }
+
+            img {
+                position: relative;
+
+            }
+
+            .text-2 {
+
+                position: absolute;
+                top: 27rem;
+                padding: 0 1.5rem;
+
+
+                p {
+                    a {
+                        background-color: #679a23;
+                        padding: 4px 20px;
+                        font-size: 10PX;
+                        letter-spacing: 2px;
+
+                    }
+                }
+
+                h1 {
+                    width: 90%;
+                    font-family: var(--font--family-header);
+
+                }
+
+                .john-doe {
+
+
+
+                    ul {
+                        li {
+                            a {
+                                color: rgba(255, 255, 255, 0.5);
+                            }
+                        }
+                    }
+
+
+                }
+
+            }
+
+        }
+    }
+
+}
+
+.grid-cards {
+    background-color: #f2f2f2;
+    padding: 5rem;
+
+    .row-1 {
+        width: 100%;
+
+        .col {
+            .card {
+               
+                .card-img{
+                    overflow:hidden;
+                    .card-img-top{
+                        transition: .5s;
+                        
+                        &:hover{
+                            opacity: 0.5;
+                            transform: scale(1.1);
+                          
+    
+                    }
+                    }
+                }
+
+                .card-body {
+                    
+                    padding: 2rem 1.8rem;
+
+                    .December {
+                        font-size: 14px;
+                        color: var(--color-font-pragraph);
+                    }
+
+                    .card-title {
+                        font-family: var(--font--family-header);
+
+                    }
+
+                    .card-text {
+                        font-family: var(--font--family-header);
+                        text-align: center;
+
+                    }
+
+                    .card-text-p {
+                        color: var(--color-font-pragraph);
+                        line-height: 30px;
+                        font-size: 15px;
+                        width: 80%;
+                    }
+
+                    a {
+                        color: #0054a5;
+                        font-size: 15px;
+                        transition: .3s;
+
+                        &:hover {
+                            color: black;
+                        }
+                    }
+
+                    .Dieter {
+                        text-align: center;
+                        color: var(--color-font-pragraph);
+                        font-size: 15px;
+                    }
+                }
+
+                .icon {
+                    width: 12%;
+                }
+            }
+            .card-left {
+                background-color: white;
+              
+
+                .card-body {
+                    padding: 2rem 0rem;
+
+                    .card-text {
+                        font-family: var(--font--family-header);
+                        text-align: center;
+                        margin-bottom: 2rem;
+                        width: 71%;
+                        margin-left: 3rem;
+
+                    }
+
+                    a {
+                       margin-left: 6.5rem;
+                        color: var(--color-font-pragraph);
+                        font-size: 15px;
+                        transition: .3s;
+                      
+
+                        &:hover {
+                            color: black;
+                        }
+                    }
+
+
+                }
+                .icon{
+                    margin-left: 10rem;
+                   
+                }
+            }
+        }
+    }
+    
+}
+.pagination{
+    background-color: #f2f2f2;
+   .page-link{
+    color: #151515;
+    font-weight: bold;
+    background-color: #f2f2f2;
+   
+    &:hover{
+        background-color: #65656554;
+    }
+   }
+   .page-item{
+    margin-right: 7px;
+    padding: 0 5px;
+    .page-link-0{
+        padding:1rem 1.3rem;
+        color: #151515;
+        border: 2px solid white; 
+        border-radius: 50%;
+        background-color: white;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+        transition: .3s;
+        &:hover{
+            color: white;
+            background-color: black;
+            border: none;
+        }
+       }
+   }
+  
+}
+.Popular{
+    padding:3rem 4rem; 
+    .title{
+      font-family: var(--font--family-header);
+      width: 86%;
+      
+    }
+    .images{
+        .image{
+            .image-p{
+               img{
+                width: 17%;
+                margin-top: 3rem;
+               }
+               .p{
+                margin-top: 3.5rem;
+                span{
+                  
+                   font-size: 16px;
+                   transition: .5s;
+                   &:hover{
+                    color: #0054a5;
+                    cursor: pointer;
+                   }
+                }
+                p{
+                    font-size: 13px;
+                    color: var(--color-font-pragraph);
+                }
+               }
+            }
+        }
+    }
+    .About-Philosophy{
+        p{
+           line-height: 30px; 
+           color: var(--color-font-pragraph);
+           font-size: 15px;
+           margin-bottom: 2.5rem;
+        }
+        .icon i:hover{
+           color: #0054a5;
+        }
+    }
+}
+.tages{
+    .titel{
+        font-family: var(--font--family-header);
+    }
+    .buttons{
+        .btn{
+            background-color: #e2e2e2;
+            color: #333333;
+            border-radius: 3px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 15px;
+            padding:8px 1.5rem;
+            transition: .6s;
+            &:hover{
+                color: white;
+                background-color: #151515;
+            }
+
+        }
+    }
+}
+.footer{
+    background-color: #151515;
+    padding:6rem 4rem;
+    .parent-footer{
+       
+        .parent-Quick{
+            .Quick-Links{
+                h4{
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                }
+                p{
+                    color: var(--color-font-pragraph);
+                    font-size: 15px;
+                    
+                }
+            }
+        }
+        .Our-Newsletter{
+            width: 40%;
+            h4{
+                color: white;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+            .border{
+                width:20%;
+            }
+            .p{
+                p{
+                    color: var(--color-font-pragraph);
+                    line-height: 30px;
+                    width: 95%;
+                }
+            }
+            .input-group{
+                margin-top: 4.5rem;
+                input{
+               width: 80%;
+                }
+                .btn{
+                    padding: 14px;
+                }
+            }
+        }
+    }
+    .copyright{
+        span{
+            color: var(--color-font-pragraph);
+        
+        }
+    }
+}

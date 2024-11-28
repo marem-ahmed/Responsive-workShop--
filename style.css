@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.our-story{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-our-story{
+    width: 55%;
+    text-align: center;
+}
+.text-our-story h3{
+    color: #D61C22;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-our-story h2{
+    font-size: 2rem;
+}
+.text-our-story p{
+margin-block: 10px;    
+}
+.text-our-story a{
+    text-decoration: none;
+    color: black;
+
+}
+.img-our-story{
+    width: 30%;
+   
+
+}
+.img-our-story img{
+    width: 100%;
+    border-radius: 20px;
+}
+.img-our-story:hover img{
+    transform: scale(1.1);
+}
+
+.menu{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 15vh;
+    justify-content: space-between;
+}
+.meal{
+    width: 30%;
+}
+.meal-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.discover{
+    background-image: url(imges/bg-intro-01.jpg);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    margin-top: 15vh;
+}
+.discover-text{
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+.reservation{
+    width: 75%;
+    margin: auto;
+    margin-top: 15vh;
+}
+.conatiner-resvation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.reservation-form {
+    width: 55%;
+}
+.img-revervation{
+    width: 35%;
+}
+.img-revervation img{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-row{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+.form-row input{
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    margin-block: 15px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:776px) {
+    .our-story{
+        flex-direction: column;
+    }
+    .img-our-story{
+        width: 80%;
+    }
+    .text-our-story{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .menu{
+        flex-direction: column;
+        width: 90%;
+    }
+    .meal{
+        width: 100%;
+        margin-bottom: 15px;
+
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    .conatiner-resvation{
+        flex-direction: column;
+    }
+    .reservation-form{
+        width: 95%;
+    }
+    .img-revervation{
+        width: 70%;
+    }
+    .reservation{
+        width: 100%;
+    }
+}
+
+
+
+
+
